@@ -6,40 +6,66 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
- 
+
       
     <!--<div id="root">
       <h1>Hola mundo!</h1>
     </div>
    -->
     <!--sc<ript src="index.js"></script>-->
-            <!--Sección para que un usuario nuevo se registre y pueda creer su código (Prototipo hoja 1)-->
+  <!--Sección para que un usuario nuevo se registre y pueda creer su código (Prototipo hoja 1)-->
            <header>
-              <section id="Bot-registro">
-                  <a id="pag-registro">Registro</a>
+              <section>
+
+                  <a id="registro-boton">Registro</a>
                   </section>
-                  <section>
-                      <section id="pag-registro" class="oculto">
-                          
-                  <h1>Aquí va la página del botón de registro</h1>
+                                           
            </header>
             
-            
-          </section>
-
-      <!--Esta es la sección para que el usuario decida si ingresará el código como Jefe o como Empleado (Prototipo hoja 1)-->
+  <!-- HOJA 1 DE PROTOTIPO-->
+  <!--Esta es la sección para que el usuario decida si ingresará el código como Jefe o como Empleado (Prototipo hoja 1)-->
       <section id="TipoDeUsuario">
           <h1>Nombre de aplicación</h1>
           <h3>Tipo de Usuario</h3>
       
           <a id='jefe-boton'>JEFE</a>
-          <a href="empleado.html">EMPLEADO</a>
+          <a id='empleado-boton'>EMPLEADO</a>
+          
       </section>
+
+  <!-- HOJA 1.1 DE PROTOTIPO-->
+  <!-- Esta es la página a la que entrará el "JEFE" para pedir su clave de usuario (prototipo hoja 1.1)-->
       <section id="pag-jefe" class="oculto">
-          <h1>Aquí va la pág del jefe</h1>
-
-
+          <h1>BIENVENIDO</h1>
+          <label for="clavedeusuariojefe">Ingresa tu clave de Usuario:</label><br>
+          <input type="password" id="claveusuariojefe" name="claveusuariojefe" > <br>
+          <a id='enviar-clave-usuario'>Enviar</a>
+          
       </section>
-      <script src="cipher.js"></script>
+  <!-- HOJA 3 DE PROTOTIPO-->
+      <section id="pag-crear-codigo" class="oculto">
+      <h1>Ésta es la página donde vas a crear tu código</h1>
+       <!--Le solicita al jefe que vuelva a escribir su nombre-->
+       <label for="nombre-jefe">Escribe tu nombre:</label><br>
+       <input type="text" id="nombre-jefe" name="nombre-jefe" > <br>
+
+   <!--Le solicita al jefe que escriba el código que creará y enviará al empleado-->
+       <label for="crear-codigo-para-empleado">Ingresa el código que deseas para tu empleado:</label><br>
+       <input type="text" id="crear-codigo-para-empleado" name="crear-codigo-para-empleado" > <br>
+
+   <!--Le solicita al jefe que decida el desplazamiento (offset)-->
+       <label for="desplazamiento">Define el desplazamiento para encriptar:</label><br>
+       <input type="text" id="desplazamiento" name="desplazamiento" > <br>
+
+
+    </section>
+
+  <!-- HOJA 2 DE PROTOTIPO-->
+    <!-- Esta es la página a la que entrará el "EMPLEADO" para pedir su nombre y clave de usuario (prototipo hoja 2)-->
+      <section id="pag-empleado" class="oculto">
+        <h1>Aquí va la página del empleado</h1>
+      </section>
+
+      <script src="index.js"></script>
   </body>
 </html>
