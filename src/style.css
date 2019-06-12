@@ -1,0 +1,10 @@
+body{
+    background:url(../imagenes/Obito.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    color: beige;
+    }
+.oculto{
+    display: none;
+}
+
