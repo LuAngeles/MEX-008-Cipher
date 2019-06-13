@@ -6,7 +6,9 @@ const mostrarSeccion=(id)=>{
     document.getElementById(id).classList.add('oculto')
   }
   
-  
+  const ocultarBoton=(id)=>{
+    document.getElementById(id).classList.add('boton')
+  }
   //const fondoPrincipal=('body')
   
   ////////////////////////////////////////////////////////////////////
@@ -21,6 +23,7 @@ const mostrarSeccion=(id)=>{
   //Variable en la que abrirá una nueva pagina, una vez que, dieron click en "jefe" (prototipo hoja 1.1)
   const verPagJefe=()=>{
     ocultarSeccion('TipoDeUsuario');
+    ocultarBoton('registro-boton');
     mostrarSeccion('pag-jefe');
   }
   //Mandará llamar con el botón de "jefe" a la página de clave de usuario//
@@ -30,11 +33,12 @@ const mostrarSeccion=(id)=>{
   const enviarClUsuario=document.getElementById('enviar-clave-usuario');
   
   const verPagCod=()=>{
+    ocultarSeccion('registro-boton');
     ocultarSeccion('pag-jefe');
     mostrarSeccion("pag-crear-codigo");
   }
   
-  enviarClUsuario.addEventListener('click',verPagCod)
+  enviarClUsuario.addEventListener('click',verPagCod);
   
   
   ///////// EMPLEADO ////////////////////////
@@ -45,7 +49,15 @@ const mostrarSeccion=(id)=>{
     mostrarSeccion('pag-empleado');
   }
   //Mandará llamar con el botón de "EMPLEADO" a la página de clave de usuario//
-  empleadoButton.addEventListener('click',verPagEmpleado)
+  empleadoButton.addEventListener('click',verPagEmpleado);
+
+  //aquí debo mandar abrir desde pág 2 a E1 //
+  const enviarDatosEmpleado=document.getElementById('datos-empleado')
+  const codigoEmpleado=()=>{
+    ocultarSeccion('pag-empleado');
+    mostrarSeccion('codigo-empleado');
+  }
+  enviarDatosEmpleado.addEventListener('click',codigoEmpleado);
   
   ////////////// REGISTRO //////////////////////
   

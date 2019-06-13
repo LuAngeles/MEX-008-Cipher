@@ -1,14 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
 body{
     background:url(../imagenes/portada.png);
     background-size: cover;
     background-repeat:no-repeat;
     background-attachment: fixed;
     color: beige;
+    font-family: 'Cuprum',sans-serif;
+    margin: 50px;
+    padding: 50px;
     }
 
 .oculto{
     display: none;
 }
+.boton:hover{
+    background:#63B3BF;
+    padding: 10px;
+}
+
+
+#registro-boton{
+    float:right;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding:10px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    background: grey;
+}
+#TipoDeUsuario{
+    text-align: center;
+    margin: 100px;
+}
+
+#jefe-boton,#empleado-boton{
+    display: inline-block;
+    text-align:center;
+    vertical-align: middle;
+    margin: 5px 50px;
+    padding: 12px 24px;
+    border: 1px solid whitesmoke;
+    border-radius:15px;
+    background:grey;
+    
+}
+
 
 
     
