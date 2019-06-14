@@ -13,14 +13,8 @@
     </div>
    -->
     <!--sc<ript src="index.js"></script>-->
-  <!--Sección para que un usuario nuevo se registre y pueda creer su código (Prototipo hoja 1)-->
-           <header>
-              <section>
-
-                  <a id="registro-boton" class="boton">Registro</a>
-              </section>
-                                           
-           </header>
+  
+      
             
   <!-- HOJA 1 DE PROTOTIPO-->
     <!--Esta es la sección para que el usuario decida si ingresará el código como Jefe o como Empleado (Prototipo hoja 1)-->
@@ -29,8 +23,10 @@
           <h2>Donde la calidad y control es nuestra misión</h2>
           <h3>Tipo de Usuario</h3>
       
-          <a id='jefe-boton' class="boton">JEFE</a>
-          <a id='empleado-boton' class="boton">EMPLEADO</a> 
+          <a id="jefe-boton" class="boton">JEFE</a>
+          <a id="empleado-boton" class="boton">EMPLEADO</a> 
+          <a id="registro-boton" class="boton">Registro</a> <!--Sección para que un usuario nuevo se registre y pueda creer su código (Prototipo hoja 1)-->
+
       </section>
 <!--  ----------------------------------        JEFE     ------------------------>
 
@@ -40,7 +36,7 @@
           <h1>BIENVENIDO</h1>
           <label for="clavedeusuariojefe">Ingresa tu clave de Usuario:</label><br>
           <input type="password" id="claveusuariojefe" name="claveusuariojefe" > <br>
-          <a id='enviar-clave-usuario' class="boton">Enviar</a>
+          <a id="enviar-clave-usuario" class="boton">Enviar</a>
           
       </section>
   <!-- HOJA 3 DE PROTOTIPO-->
@@ -55,30 +51,53 @@
    <!--Le solicita al jefe que decida el desplazamiento (offset)-->
           <label for="desplazamiento">Define el desplazamiento para encriptar:</label><br>
           <input type="text" id="desplazamiento" name="desplazamiento" > <br>
-          <a id='encriptar' class="boton">Encriptar</a>
+          <a id="encriptar" class="boton">Encriptar</a>
     </section>
+  
+   <!-- HOJA 4 DE PROTOTIPO-->
+   <section id="codigo-final" class="oculto">
+     <h3>Aquí va el nombre del jefe</h3>
+     <h2>Éste es tu código final</h2>
+     <h4>Aquí debe aparecer el código encriptado, en una caja sin modificar</h4>
+     <a id="guarda-codigo" class="boton">Guardar código</a>
+     <a id="menu-principal" class="boton">Ir a Menú Principal</a>
+     <a id="salida" class="boton">Salir</a>
+    
+   </section>
+
 <!--  -------------------------------------------------------------------------------------------->
 
 <!--  ----------------------------------        EMPLEADO     ------------------------>
   <!-- HOJA 2 DE PROTOTIPO-->
     <!-- Esta es la página a la que entrará el "EMPLEADO" para pedir su nombre y clave de usuario (prototipo hoja 2)-->
       <section id="pag-empleado" class="oculto">
-          <h1>Ayúdanos con tus datos</h1>
+          <h1>Ayúdanos ingresando tus datos</h1>
     <!--Se le solicitará al empleado que ingrese su nombre-->            
           <label for="nombre-empleado">Escribe tu nombre:</label><br>
           <input type="text" id="nombre-empleado" name="nombre-empleado" > <br>
 
     <!--Se le solicitará al empleado que ingrese su clave de usuario-->
-          <label for="clave-empleado">Ingresa tu clave de usuario:</label><br>
+          <label for="clave-empleado">Escribe tu clave de usuario:</label><br>
           <input type="password" id="clave-usuario-empleado" name="clave-usuario-empleado" > <br>
-          <a id='datos-empleado' class="boton">Enviar</a>
+          <a id="datos-empleado" class="boton">Enviar</a>
       </section>
 <!-- HOJA E1 DE PROTOTIPO-->
       <section id="codigo-empleado" class="oculto">
-        <h1>Aquí debe aparecer la página donde el empleado debe escribir el código</h1>
+        <h1>¿LISTO PARA ENVIAR TU TRABAJO ;) ?</h1>
+        <h2>Aquí debe aparecer el nombre del empleado</h2>
         <h2>Escribe el código enviado por tu jefe</h2>
+
+        <label for="escribir-codigo">Ingresa el código</label><br>
+        <input type="text" id="escribir-codigo" name="escribir-codigo" > <br>
+        <a id="codigo-encriptado" class="boton">Siguiente</a>
       </section>
       
+<!-- HOJA E2 DE PROTOTPIO -->
+<section id="enviar-trabajo" class="oculto">
+<h1>GRACIAS POR TU ESFUERZO!</h1>
+<h2>Envía tu trabajo:</h2>
+<a id="trabajo-enviado" class="boton">Enviar</a>
+</section>
 
       <script src="index.js"></script>
   </body>

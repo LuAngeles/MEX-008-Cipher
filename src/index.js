@@ -9,8 +9,7 @@ const mostrarSeccion=(id)=>{
   const ocultarBoton=(id)=>{
     document.getElementById(id).classList.add('boton')
   }
-  //const fondoPrincipal=('body')
-  
+    
   ////////////////////////////////////////////////////////////////////
    ////// DE HOJA 1 A HOJA 1.1 U HOJA 2 /////////////////////////////
   
@@ -37,8 +36,15 @@ const mostrarSeccion=(id)=>{
     ocultarSeccion('pag-jefe');
     mostrarSeccion("pag-crear-codigo");
   }
-  
-  enviarClUsuario.addEventListener('click',verPagCod);
+    enviarClUsuario.addEventListener('click',verPagCod);
+
+    //// PROTOTIPO DE HOJA 3 A HOJA 4 ////
+    const codEncriptadoJefe=document.getElementById('encriptar');
+    const verPagCodEncriptado=()=>{
+      ocultarSeccion('pag-crear-codigo');
+      mostrarSeccion('codigo-final');
+    }
+    codEncriptadoJefe.addEventListener('click',verPagCodEncriptado);
   
   
   ///////// EMPLEADO ////////////////////////
@@ -52,12 +58,20 @@ const mostrarSeccion=(id)=>{
   empleadoButton.addEventListener('click',verPagEmpleado);
 
   //aquí debo mandar abrir desde pág 2 a E1 //
-  const enviarDatosEmpleado=document.getElementById('datos-empleado')
+  const enviarDatosEmpleado=document.getElementById('datos-empleado');
   const codigoEmpleado=()=>{
     ocultarSeccion('pag-empleado');
     mostrarSeccion('codigo-empleado');
   }
   enviarDatosEmpleado.addEventListener('click',codigoEmpleado);
+
+  //Mando de E1 a E2 de hoja de mi prototipo//
+  const enviarCodEncriptado=document.getElementById('codigo-encriptado');
+  const codEncriptadoEmpleado=()=>{
+    ocultarSeccion('codigo-empleado');
+    mostrarSeccion('enviar-trabajo');
+  }
+  enviarCodEncriptado.addEventListener('click',codEncriptadoEmpleado);
   
   ////////////// REGISTRO //////////////////////
   
@@ -66,29 +80,14 @@ const mostrarSeccion=(id)=>{
   //Variable en la que abrirá una nueva pagina, una vez que, dieron click en "jefe" (prototipo hoja 1.1)
   registroBoton.addEventListener('click',verPagJefe);
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  //Variable para abrir la página que el empleado verá una vez que apriete el botón (prototipo hoja 2)
-  
-  
-  
-  
-  //Variable en la que abrirá una nueva página, una vez que, dieron click en "registro" (prototipo hoja 1.1)
+    //Variable en la que abrirá una nueva página, una vez que, dieron click en "registro" (prototipo hoja 1.1)
   const pagRegistro=()=>{
     ocultarSeccion('TipoDeUsuario');
     mostrarSeccion('pag-jefe')
   }
   
   //Mandará llamar con el botón de "registro" a la página de clave de usuario//
-  registroBoton=document.getElementById('click',pag-registro)
+  registroBoton=document.getElementById('click',pagRegistro)
   
   
   

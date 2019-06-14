@@ -13,14 +13,34 @@ body{
 .oculto{
     display: none;
 }
+
+
 .boton:hover{
     background:#63B3BF;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
 }
 
+h1{
+    font-size: 100px;
+    
+
+}
+
+h2{
+    font-size: 50px;
+    font-style:italic;
+}
+
+h3{
+    font-size: 30px;
+
+}
 
 #registro-boton{
-    float:right;
+    float: right;
     display: inline-block;
     text-align: center;
     vertical-align: center;
@@ -29,12 +49,15 @@ body{
     border-radius: 15px;
     background: grey;
 }
+
+
+
 #TipoDeUsuario{
     text-align: center;
     margin: 100px;
 }
 
-#jefe-boton,#empleado-boton{
+#jefe-boton{
     display: inline-block;
     text-align:center;
     vertical-align: middle;
@@ -43,9 +66,37 @@ body{
     border: 1px solid whitesmoke;
     border-radius:15px;
     background:grey;
-    
+    width: 50px;
+    height: 20px;
+    font-size: 20px;
 }
 
+#empleado-boton{
+    display: inline-block;
+    text-align:center;
+    vertical-align: middle;
+    margin: 5px 5px;
+    padding: 12px 30px;
+    border: 1px solid whitesmoke;
+    border-radius:15px;
+    background:grey;
+    width: 70px;
+    height: 20px;
+    font-size: 20px;
+}
 
+#enviar-clave-usuario{
+    display: inline-block;
+    text-align:center;
+    vertical-align: middle;
+    margin: 5px 5px;
+    padding: 12px 30px;
+    border: 1px solid whitesmoke;
+    border-radius:15px;
+    background:grey;
+    width: 70px;
+    height: 20px;
+    font-size: 20px;
+}
 
     
