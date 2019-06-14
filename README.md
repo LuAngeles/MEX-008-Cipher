@@ -1,19 +1,19 @@
 # SEGURIDAD TECNOLÓGICA 
-# ¡Donde la calidad y el control, es nuestra misión
+# ¡Donde la calidad y el control, es nuestra misión!
 
-Descripción General
+-Descripción General
 ========================
 
 El cifrado César lo aplicaré para motivos de seguridad en cualquier empresa en la que el ** JEFE** desee tener un control en los proyectos o archivos que se manejen sus **EMPLEADOS** dentro de ella; y a su vez, medir su rendimiento, calidad y tiempo en el que deben entregar sus actividades. Esto con el fin, de estar observando más de cerca qué es lo que pasa con dichos empleados, conocer si están realizando sus actividades a tiempo y/o detectar si tienen algún problema para que de inmediato, de la mejor manera se resuelva y así,  tanto el empleado, como el jefe, **se sientan a gusto con lo que estén haciendo**.
 
-### Caso Práctico
+## Caso Práctico
 
 Un caso práctico para la aplicación de este cifrado sería por ejemplo que, el jefe le pide a un empleado realizar cierta actividad en una computadora (reporte de actividades, utilidades, la contabilidad, etc.) para entregar en un determinado tiempo, supongamos cinco días hábiles, por lo que, iniciaría su labor en lunes a las 9:00am y tendría para culminarla viernes 03:00pm.  
 Una vez determinado el tiempo de entrega, el empleado tendrá disponible el acceso (código encriptado)a cierta base de datos en la cual tendrá que ir adjuntando sus avances y enviar su trabajo final, como fecha límite hasta el viernes a las 3:00pm. 
 Para ello, solo el jefe de la empresa podrá manipular dicha base de datos, mediante las contraseñas creadas por el cifrado César. Por lo que, una vez pasado el tiempo de entrega (viernes 3:00pm) si el empleado no envío el archivo de la actividad asignada, no tendría acceso a dicha base de datos, ya que no conoce la contraseña (a menos que la descifre). O caso contrario, si el empleado terminó antes de tiempo su actividad, le podrían dar hasta un día más de descanso, como recompensa por haber trabajado bien.   
  Con esto, el jefe tendría el control de todos los trabajos que se estén realizando en su empresa, en dado caso de que exista alguna renuncia o plagio de ideas y, además, podría vigilar con mayor atención el rendimiento de sus empleados, ya que se le estaría notificando qué persona no terminó o viceversa. 
 
-Usuarios
+-Usuarios
 ==========
 
 Los usuarios directos sería los dueños de las empresas, ya que, ellos generarán contraseñas de manera aleatoria (cualquier palabra con cierto desplazamiento offset), ya sea por día, semana o mes para una base de datos. Esto, con el fin de estar al pendiente de todo lo que se está realizando en su empresa; además tener una relación y/o análisis de quiénes son los empleados que están cumpliendo con su trabajo y quiénes no. Siempre pensando en buscar una solución para los problemas que esté teniendo el empleado y así, promover su crecimiento y rendimiento.
