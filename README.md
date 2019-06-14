@@ -4,7 +4,7 @@
 -Descripción General
 ========================
 
-El cifrado César lo aplicaré para motivos de seguridad en cualquier empresa en la que el ** JEFE** desee tener un control en los proyectos o archivos que se manejen sus **EMPLEADOS** dentro de ella; y a su vez, medir su rendimiento, calidad y tiempo en el que deben entregar sus actividades. Esto con el fin, de estar observando más de cerca qué es lo que pasa con dichos empleados, conocer si están realizando sus actividades a tiempo y/o detectar si tienen algún problema para que de inmediato, de la mejor manera se resuelva y así,  tanto el empleado, como el jefe, **se sientan a gusto con lo que estén haciendo**.
+El cifrado César lo aplicaré para motivos de seguridad en cualquier empresa en la que el **JEFE** desee tener un control en los proyectos o archivos que se manejen sus **EMPLEADOS** dentro de ella; y a su vez, medir su rendimiento, calidad y tiempo en el que deben entregar sus actividades. Esto con el fin, de estar observando más de cerca qué es lo que pasa con dichos empleados, conocer si están realizando sus actividades a tiempo y/o detectar si tienen algún problema para que de inmediato, de la mejor manera se resuelva y así,  tanto el empleado, como el jefe, **se sientan a gusto con lo que estén haciendo**.
 
 ## Caso Práctico
 
