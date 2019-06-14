@@ -20,8 +20,8 @@ Los usuarios directos sería los dueños de las empresas, ya que, ellos generar�
 
 Los siguientes usuarios, serían los empleados, debido a que, ellos utilizarían **Seguridad Tecnológica** para ingresar el código encriptado y adjuntar su trabajo. 
 Tal vez, se esuché poco; sin embargo, no es así. Ya que, se incitaría a los empleados a desarrollar *habilidades blandas*, principalemnte dos, las cuales a continuación meciono:
-* Planificar, organizar y manejar su tiempo, esto por que tiene cierto número de días para entregar su trabajo.
-* Responsabilidad. Por que a partir de esa base de datos a la cual su jefe tendrá acceso, estará siendo evaluado si hace bien su trabajo o no. 
+* Planificar, organizar y manejar su tiempo, esto por que tiene cierto número de días para entregar su trabajo. Por lo que, podría utilizar varias herramientas, y así agilizar sus actividades y poder entregar algo bien hecho en tiempo y forma. 
+* Inculcar la responsabilidad. Por que a partir de esa base de datos a la cual su jefe tendrá acceso, estará siendo evaluado y por consiguiente, decidir si hace bien su trabajo o no. 
 
 
 
