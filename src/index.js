@@ -79,40 +79,43 @@ const mostrarSeccion=(id)=>{
   
   //Variable del botón que el usuario presionará si es nuevo (prototipo hoja 1)
   const registroBoton=document.getElementById('registro-boton');
-  //Variable en la que abrirá una nueva pagina, una vez que, dieron click en "jefe" (prototipo hoja 1.1)
+  
+  
+//Variable en la que abrirá una nueva pagina, una vez que, dieron click en "registro"(prototipo hoja 1.1)
+//Debe mostrar la misma que para ingresar como jefe//
   registroBoton.addEventListener('click',verPagJefe);
   
-    //Variable en la que abrirá una nueva página, una vez que, dieron click en "registro" (prototipo hoja 1.1)
-  const pagRegistro=()=>{
-    ocultarSeccion('TipoDeUsuario');
-    mostrarSeccion('pag-jefe')
-  }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
-  //Mandará llamar con el botón de "registro" a la página de clave de usuario//
-  registroBoton=document.getElementById('click',pagRegistro)
+const cifrar=(palabra,offset)=>{
+  palabra=palabra.toUpperCase();
+  const longitudPalabra=palabra.length;
+  let palabraEncriptada=''; // Aquí es un arreglo que empieza vacío en el que se irá guardando la 'palabra' ya encriptada
   
-  
-  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  // Esto fue en lo que avancé para realizar el cifrar y decifrar //
-  
-  let palabraEncriptada=''; // Aquí es un arreglo en el que se irán guardando la 'palabra' ya encriptada
-for(i=0;i<longitudPalabra;i++){
-let posicionLetra=(palabra.charCodeAt(i)); //Esta es la posición ASCII de cada letra ingresada 
-let positionAsciiLetra=(((posicionLetra-65)+offset)%26+65); //Solicito la nueva posición ASCII de letra por letra según el offset
-let letraEncriptada=String.fromCharCode(positionAsciiLetra); //Solicito que la posición anterior me la vuelvo caracter
-palabraEncriptada= palabraEncriptada + letraEncriptada;
+  for(i=0;i<longitudPalabra;i++){
+  let posicionLetra=(palabra.charCodeAt(i)); //Esta es la posición ASCII de cada letra ingresada 
+  let positionAsciiLetra=(((posicionLetra-65)+offset)%26+65); //Solicito la nueva posición ASCII de letra por letra según el offset
+  let letraEncriptada=String.fromCharCode(positionAsciiLetra); //Solicito que la posición anterior me la vuelvo caracter
+  palabraEncriptada= palabraEncriptada + letraEncriptada;
+
+}
+//console.log('Tu código fue la palabra: ' + palabra + ' con un desplazamiento de ' + offset + ',por lo que, tu código encriptado es: '+palabraEncriptada);
+return(cifrar);
 };
+//cifrar('HOLA',2);
 
-console.log('Tu código fue la palabra: ' + palabra + ' con un desplazamiento de ' + offset + ',por lo que, tu código encriptado es: '+palabraEncriptada);
 
-let palDesencriptada='';
+
+const decifrar=(palabraEncriptada,offset)=>{
+let palDesencriptada=''; //Arreglo vacío en el que se irá guardando la palabra a descencriptar
 for(i=0;i<palabraEncriptada.length;i++){;
-let posLetDesencri=(palabraEncriptada.charCodeAt(i));
-let posDesencri=(posLetDesencri-65-offset)+52%26+65;
-let letraDesencri=String.fromCharCode(posDesencri);
+let posLetDesencri=(palabraEncriptada.charCodeAt(i)); //Solicito la posición ASCII de cada letra encriptada
+let posDesencri=(posLetDesencri-65-offset)+52%26+65; //Una vez que me dio la posición anterior, quiero que me de la posición a la cual debe regresar originalmente 
+let letraDesencri=String.fromCharCode(posDesencri); //Solicitio que el valor obtenido que lo convierta a caracter
 palDesencriptada=palDesencriptada + letraDesencri;
 }
-console.log('Tu código encriptado es: ' + palabraEncriptada + ' con un desplazamiento de ' + offset + ',así que tu palabra original es '+ palDesencriptada);
+//console.log('Tu código encriptado es: ' + palabraEncriptada + ' con un desplazamiento de ' + offset + ',así que tu palabra original es '+ palDesencriptada);
+return(decifrar);
+}
+//decifrar('JQNC',2);
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-  
