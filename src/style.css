@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap'); /*Textos h1*/
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); /*Textos h2 a h4*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400i&display=swap'); /*Textos de instrucciones*/
+
 body{
     background:url(../imagenes/portada.png);
     background-size: cover;
     background-repeat:no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     color: beige;
     font-family: 'Cuprum',sans-serif;
     margin: 50px;
@@ -15,13 +18,7 @@ body{
 }
 
 
-.boton:hover{
-    background:#63B3BF;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    border-radius: 15px;
-}
+
 
 h1{
     font-size: 100px;
@@ -30,6 +27,7 @@ h1{
 }
 
 h2{
+    font-family: 'Lato',sans-serif;
     font-size: 50px;
     font-style:italic;
 }
@@ -39,16 +37,6 @@ h3{
 
 }
 
-#registro-boton{
-    float: right;
-    display: inline-block;
-    text-align: center;
-    vertical-align: center;
-    padding:10px 20px;
-    border: 1px solid whitesmoke;
-    border-radius: 15px;
-    background: grey;
-}
 
 
 
@@ -57,18 +45,54 @@ h3{
     margin: 100px;
 }
 
+#boton-instrucciones1{
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    margin: 10 px;
+    padding: 10px;
+    background: #65CC62;
+    border-radius: 30px;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 16px;
+}
+#boton-instrucciones1:hover{
+    background: grey;
+    padding: 10px;
+    margin: 10 px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+#registro-boton{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding:10px 20px;
+    border: 1px solid #65CC62;
+    border-radius: 30px;
+    background: rgb(124,128,124,0.3);
+}
+
+
 #jefe-boton{
     display: inline-block;
     text-align:center;
     vertical-align: middle;
     margin: 5px 50px;
     padding: 12px 24px;
-    border: 1px solid whitesmoke;
+    border: 5px solid #F5F5F5;
     border-radius:15px;
-    background:grey;
+    background:#7C807C;
     width: 50px;
     height: 20px;
     font-size: 20px;
+    font-style: bold;
+    
 }
 
 #empleado-boton{
@@ -77,14 +101,21 @@ h3{
     vertical-align: middle;
     margin: 5px 5px;
     padding: 12px 30px;
-    border: 1px solid whitesmoke;
+    border: 5px solid #F5F5F5;
     border-radius:15px;
     background:grey;
     width: 70px;
     height: 20px;
     font-size: 20px;
+    font-style: bold;
 }
-
+.boton:hover{
+    background:#63B3BF;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
 #enviar-clave-usuario{
     display: inline-block;
     text-align:center;
