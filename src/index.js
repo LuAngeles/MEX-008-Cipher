@@ -1,4 +1,4 @@
-//Variables generales para mostrar y ocultar secciones -esto evita abrir varios HTML's//
+//Funciones generales para mostrar y ocultar secciones -esto evita abrir varios HTML's//
 const mostrarSeccion=(id)=>{
   document.getElementById(id).classList.remove('oculto')
   }
@@ -8,6 +8,15 @@ const ocultarSeccion=(id)=>{
   
   const ocultarBoton=(id)=>{
     document.getElementById(id).classList.add('boton')
+  }
+  // Funciones generales para guardar y mostrar los nombres tanto del Jefe como del empleado
+  const nombres=(nombre,posicion)=>{
+    let valorNombre=document.getElementById(nombre).value;
+    let verNombre=document.getElementById(posicion);
+   
+  verNombre.innerHTML=('Listo ' + valorNombre);
+   
+  ;
   }
     
 ////////////////////////////////////////////////////////////////////
@@ -54,6 +63,19 @@ const verPagCod=()=>{
 enviarClUsuario.addEventListener('click',verPagCod);
 
 //// PROTOTIPO DE HOJA 3 A HOJA 4 ////
+
+///Sección donde debe aparecer el nombre del jefe en la página///
+
+const nombreJefe=nombres('nombre-jefe','ver-nombre-jefe');
+//const verNombre=document.getElementById('ver-nombre-jefe');
+//const nombre=document.getElementById('nombre-jefe').value;
+
+//verNombre.innerHTML=nombre;
+
+
+
+
+
 ////Página que aparecerá para CIFRAR////
 const desplazamiento=document.getElementById('desplazamiento');
 const palabraOriginal=document.getElementById('crear-codigo-para-empleado');
@@ -74,19 +96,19 @@ codEncriptadoJefe.addEventListener('click',verPagCodEncriptado);
   
 /// Sección de instrucciones en hoja 3 de prototipo ////
   /// ABRIR PÁGINA///
-const instruc2=document.getElementById('boton-2');
-    const PagInstruc2=()=>{
+const instruc=document.getElementById('boton-2');
+const cierre=document.getElementById('cerrar2');
+    const pagInstruc=()=>{
       mostrarSeccion('instrucciones-2');
       //mostrarSeccion('cerrar2');
     }
-    instruc2.addEventListener('click',PagInstruc2);
+instruc.addEventListener('click',pagInstruc);
 
   /// CERRAR PÁGINA ///
-const botoncerrar=document.getElementById('cerrar2');
 const cierrePag=()=>{
   ocultarSeccion('instrucciones-2');
   }
-botoncerrar.addEventListener('click',cierrePag);
+cierre.addEventListener('click',cierrePag);
 
 //// HOJA 4.1 DE PROTOTIPO ////
 /// Página que aparecerá para desencriptar o recuperar la contraseña original///
@@ -137,6 +159,10 @@ const codigoEmpleado=()=>{
 enviarDatosEmpleado.addEventListener('click',codigoEmpleado);
 
 ///Mando de E1 a E2 de hoja de mi prototipo//
+// Sección donde debe aparecer el nombre del empleado en la página//
+
+const nombreEmpleado=nombres('nombre-empleado','ver-nombre-empleado');
+
 // Le voy a solicitar al empleado que escriba el código encriptado y así pueda enviar su trabajo//
 const enviarCodEncriptado=document.getElementById('codigo-encriptado');
 const codEncriptadoEmpleado=()=>{
@@ -156,3 +182,10 @@ registroBoton.addEventListener('click',verPagJefe);
   
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+///sale de la última página y regresa a la página de inicio///
+const reinicio=document.getElementById('salida');
+
+const pagInicio=()=>{
+  location.reload(TipoDeUsuario);
+}
+reinicio.addEventListener('click',pagInicio);

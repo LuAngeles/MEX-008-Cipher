@@ -26,15 +26,26 @@
             </section>
         
       <section id="instrucciones-1" class="oculto">
-            <h3>¿Cómo funciona?</h3>
             <a id="cerrar">X</a>
+            <h3>¿Qué es Seguridad Tecnológica?</h3>
+                <p>Seguridad Tecnológica es una página WEB en la que puede interactuar, <br>
+                    tanto el jefe de una empresa, como un empleado de la misma, <br>
+                    con el fin de tener la seguridad y el control de lo que cada uno está haciendo. <br>
+              
+                    Si eres el jefe de alguna empresa, podrás generar contraseñas con toda seguridad <br>
+                    debido a que Tú y solo Tú las conocerás. <br>
+                    Y si eres un empleado, podrás tener un control y <br>
+                    contacto directo con tu jefe para poder enviarle tus actividades realizadas. 
+                </p>
+            <h3>Instrucciones</h3>
+                <p>Solo tienes que elegir tu tipo de usuario.</p>
              <ol>
-               <li>Elige tu tipo de usuario.</li>
                <ul>
-                  <li>Si eres jefe, serás el creador de una contraseña en código</li>
-                  <li>Si eres un empleado, podrás subir tu trabajo a una plataforma.</li>
+                  <li>JEFE para crear una contraseña.</li>
+                  <li>EMPLEADO para enviar tu trabajo a una base de datos.</li>
                </ul>
              </ol>
+             <p>Más adelante, te iremos pidiendo más información.</p>
       </section>
     </section>
 
@@ -53,38 +64,41 @@
       </section>
 <!-- HOJA 3 DE PROTOTIPO-->
       <section id="pag-crear-codigo" class="oculto">
-          <h1>Ésta es la página donde vas a crear tu código</h1>
+          <h1>Ésta es la página donde vas a crear tu contraseña</h1>
     <!--Le solicita al jefe que vuelva a escribir su nombre-->
-          <label for="nombre-jefe">Escribe tu nombre:</label><br>
-          <input type="text" id="nombre-jefe" name="nombre-jefe" > <br>
+          
+            <label for="nombre-jefe">Escribe tu nombre:</label><br>
+            <input type="text" id="nombre-jefe" name="nombre-jefe" placeholder="P.ej.:Guadalupe Isidro" > <br>
+        
    <!--Le solicita al jefe que escriba el código que creará y enviará al empleado-->
-          <label for="crear-codigo-para-empleado">Ingresa la palabra a encriptar:</label><br>
-          <input type="text" id="crear-codigo-para-empleado" name="crear-codigo-para-empleado" > <br>
+          <label for="crear-codigo-para-empleado" >Ingresa tu contraseña a encriptar:</label><br>
+          <input type="text" id="crear-codigo-para-empleado" name="crear-codigo-para-empleado" placeholder="Palabra Original"> <br>
    <!--Le solicita al jefe que decida el desplazamiento (offset)-->
           <label for="desplazamiento">Define el desplazamiento para encriptar:</label><br>
           <input type="text" id="desplazamiento" name="desplazamiento" > <br>
           <a id="encriptar" class="boton">Encriptar</a>
-      </section>
+      
           <section id="boton-2" >
-              <a id="boton-instrucciones2" class="boton oculto">Lo que necesitas saber</a>
+              <a id="boton-instrucciones2" class="boton">Lo que necesitas saber</a>
       </section>
-      <section id="instrucciones-2" class="oculto">
+
+     <section id="instrucciones-2" class="oculto">
           <h3>Lo que necesitas saber...</h3>
           <a id="cerrar2">X</a>
               <ol>
                 <li>Ingresa la palabra, con la cual generarás la contraseña que desees encriptar y enviar a tu empleado.</li>
-                <li>Ingresar el desplazamiento , se refiere al número de posiciones más adelante del alfabeto que quieres que sustituyan tu contraseña del paso 1.</li>
+                <li>Ingresar el desplazamiento , se refiere al número de posiciones más adelante del alfabeto, de acuerdo al código ASCII,<br> que quieres que sustituyan tu contraseña del paso 1.</li>
                 <li>Al darle click al botón DESENCRIPTAR, está listo para crear tu contraseña encriptada :)</li>
               </ol>
       </section>
-  
+    </section>
       
     
   
 <!-- HOJA 4 DE PROTOTIPO-->
       <section id="codigo-final" class="oculto">
-          <h3>Aquí va el nombre del jefe</h3>
-          <h2>Éste es tu contraseña encriptada</h2>
+          <h3 id="ver-nombre-jefe"></h3>
+          <h2>¡ Ésta es tu contraseña encriptada ;) !</h2>
           <h4 id="codigo-cifrado"></h4>
      
           <a id="guarda-codigo" class="boton">Guardar código</a>
@@ -132,12 +146,13 @@
       </section>
 <!-- HOJA E1 DE PROTOTIPO-->
       <section id="codigo-empleado" class="oculto">
-        <h1>¿LISTO PARA ENVIAR TU TRABAJO ;) ?</h1>
-        <h2>Aquí debe aparecer el nombre del empleado</h2>
-        <h2>Escribe el código enviado por tu jefe</h2>
+        <h2 id="ver-nombre-empleado"></h2>
+        <h2>¡ A ENVIAR TU TRABAJO ;) !</h2>
+        
+        <h4>Escribe el código enviado por tu jefe:</h4>
 
-        <label for="escribir-codigo">Ingresa el código</label><br>
-        <input type="text" id="escribir-codigo" name="escribir-codigo" > <br>
+        <label for="escribir-codigo"></label><br>
+        <input type="text" id="escribir-codigo" name="escribir-codigo" placeholder="Escribe aquí"> <br>
         <a id="codigo-encriptado" class="boton">Siguiente</a>
       </section>
       

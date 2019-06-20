@@ -13,7 +13,7 @@ Una vez determinado el tiempo de entrega, el empleado tendrá disponible el acce
 Para ello, solo el jefe de la empresa podrá manipular dicha base de datos, mediante las contraseñas creadas por el cifrado César. Por lo que, una vez pasado el tiempo de entrega (viernes 3:00pm) si el empleado no envío el archivo de la actividad asignada, no tendría acceso a dicha base de datos, ya que no conoce la contraseña (a menos que la descifre). O caso contrario, si el empleado terminó antes de tiempo su actividad, le podrían dar hasta un día más de descanso, como recompensa por haber trabajado bien.   
  Con esto, el jefe tendría el control de todos los trabajos que se estén realizando en su empresa, en dado caso de que exista alguna renuncia o plagio de ideas y, además, podría vigilar con mayor atención el rendimiento de sus empleados, ya que se le estaría notificando qué persona no terminó o viceversa. 
 
--Usuarios
+ -Usuarios
 ==========
 
 Los usuarios directos sería los dueños de las empresas, ya que, ellos generarán contraseñas de manera aleatoria (cualquier palabra con cierto desplazamiento offset), ya sea por día, semana o mes para una base de datos. Esto, con el fin de estar al pendiente de todo lo que se está realizando en su empresa; además tener una relación y/o análisis de quiénes son los empleados que están cumpliendo con su trabajo y quiénes no. Siempre pensando en buscar una solución para los problemas que esté teniendo el empleado y así, promover su crecimiento y rendimiento.
@@ -23,6 +23,8 @@ Tal vez, se esuché poco; sin embargo, no es así. Ya que, se incitaría a los e
 * Planificar, organizar y manejar su tiempo, esto por que tiene cierto número de días para entregar su trabajo. Por lo que, podría utilizar varias herramientas, y así agilizar sus actividades y poder entregar algo bien hecho en tiempo y forma. 
 * Inculcar la responsabilidad. Por que a partir de esa base de datos a la cual su jefe tendrá acceso, estará siendo evaluado y por consiguiente, decidir si hace bien su trabajo o no. 
 
+-Proceso y decisiones de diseño
+=================================
 
 
 ________________________________________________________________________________________________________________________________________
