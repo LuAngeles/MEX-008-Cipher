@@ -142,7 +142,7 @@ body{
     padding: 12px 30px;
     border: 5px solid #F5F5F5;
     border-radius:15px;
-    background:grey;
+    background:#808080;
     width: 70px;
     height: 20px;
     font-size: 20px;
@@ -167,9 +167,9 @@ body{
     vertical-align: middle;
     margin: 5px 5px;
     padding: 12px 10px;
-    border: 1px solid whitesmoke;
+    border: 1px solid #f5f5f5;
     border-radius:15px;
-    background:grey;
+    background:#808080;
     width: 70px;
     height: 20px;
     font-size: 20px;
@@ -186,7 +186,7 @@ body{
     width: 70px;
     height: 20px;
     font-size: 20px;
-    color: black;
+    color: #000000;
 }
 #pag-crear-codigo{
     font-size: 20px;
@@ -198,9 +198,9 @@ body{
     vertical-align: middle;
     margin: 5px 5px;
     padding: 12px 10px;
-    border: 1px solid whitesmoke;
+    border: 1px solid #f5f5f5;
     border-radius:15px;
-    background:grey;
+    background:#808080;
     width: 70px;
     height: 20px;
     font-size: 20px;
@@ -216,7 +216,7 @@ body{
     width: 70px;
     height: 20px;
     font-size: 20px;
-    color: black;
+    color: #000000;
 }
 
 #boton-2{
@@ -229,7 +229,7 @@ body{
     border-radius: 30px;
     font-family: 'PT Sans',sans-serif;
     font-size: 16px;
-    color: black;
+    color: #000000;
 }
 #boton-instrucciones2:hover{
     background: #808080;
@@ -257,7 +257,7 @@ body{
 #instrucciones-2 h3{
     font-family: 'Loto',sans-serif;
     font-style: bold;
-    color: black;
+    color: #000000;
 }
 
 #cerrar2{
@@ -287,7 +287,7 @@ body{
     width: 70px;
     height: 20px;
     font-size: 20px;
-    color: black;
+    color: #000000;
 }
 #guarda-codigo{
     position: static;
@@ -298,7 +298,7 @@ body{
     padding: 20px 10px;
     border: 1px solid whitesmoke;
     border-radius:15px;
-    background:grey;
+    background:#808080;
     width: 70px;
     height: 20px;
     font-size: 20px;
@@ -403,7 +403,7 @@ body{
     color: black;
 }
 
-/*#codigo-decifrado{
+#codigo-decifrado{
     display: inline-block;
     text-align:center;
     margin: 5px 5px;
@@ -415,7 +415,6 @@ body{
     width: 60%;
     height: 20%;
 }
-*/
 
     /* SECCIÓN DE EMPLEADO*/
     #datos-empleado{

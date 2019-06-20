@@ -46,6 +46,6 @@ window.cipher = {
             return palDesencriptada;
         }
 };
-//module.exports=cipher;
+
 
 

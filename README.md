@@ -22,6 +22,7 @@ Los siguientes usuarios, serían los empleados, debido a que, ellos utilizarían
 Tal vez, se esuché poco; sin embargo, no es así. Ya que, se incitaría a los empleados a desarrollar *habilidades blandas*, principalemnte dos, las cuales a continuación meciono:
 * Planificar, organizar y manejar su tiempo, esto por que tiene cierto número de días para entregar su trabajo. Por lo que, podría utilizar varias herramientas, y así agilizar sus actividades y poder entregar algo bien hecho en tiempo y forma. 
 * Inculcar la responsabilidad. Por que a partir de esa base de datos a la cual su jefe tendrá acceso, estará siendo evaluado y por consiguiente, decidir si hace bien su trabajo o no. 
+Además, se estaría impulsando a los empleados, ya que de cumplir con su trabajo a tiempo, se les daría el siguiente día hábil para descansar.
 
 -Proceso y decisiones de diseño
 =================================
@@ -29,8 +30,12 @@ En cuanto al proceso y decisiones de diseño, se tomaron en cuenta varios factor
 * Plagio de información
 * Falta de control para la evaluación de labores de los empleados
 
-Su diseño fue creado a partir de una temática un tanto discreta, sin tantos colores, ni formas; viéndose elegante y que a pesar de no tener tantas instrucciones, sea instuitiva para ambos usuarios. 
-Se eligieron seis tonos de colores, principalmente, aunado a una imagen como fondo, con la cual, hice alusión a seguridad y/o privacidad por medio de un candado, porque, justamente, lo que se pretende con este proyecto es crear contraseñas para cierta base de datos. 
+Su diseño fue creado a partir de una temática un tanto discreta, sin tantos colores, ni formas; viéndose elegante y que a pesar de no tener tantas instrucciones, sea instuitiva para ambos usuarios (Jefe y Empleado). 
+Se eligieron seis tonos de colores (incluídos en el link de abajo), aunado a una imagen como fondo(encontrándose el archivo en la carpeta de imágenes), con la cual, hice alusión a seguridad y/o privacidad por medio de un candado, porque, justamente, lo que se pretende con este proyecto es crear contraseñas, con el fin de mantener el control y manejo de las actividades laborales de un equipo de trabajo dentro de una empresa.
+
+En el siguiente vínculo que adjunto, está el primer prototipo en digital que fue creado para gran parte de lo que puede realizar Seguridad Tecnolñogica; sin embargo, para aplicar solo lo del Cifrado César, se desarrollo la página 1 a la 4 y de la pág 7 a la 12. 
+
+https://xd.adobe.com/view/d34c383d-8ae8-44a5-4eda-d0507c4fc298-a57d/?fullscreen
 
 
 ________________________________________________________________________________________________________________________________________
