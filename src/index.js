@@ -10,14 +10,13 @@ const ocultarSeccion=(id)=>{
     document.getElementById(id).classList.add('boton')
   }
   // Funciones generales para guardar y mostrar los nombres tanto del Jefe como del empleado
-  const nombres=(nombre,posicion)=>{
-    let valorNombre=document.getElementById(nombre).value;
-    let verNombre=document.getElementById(posicion);
+  //const nombres=(nombre,posicion)=>{
+    //let valorNombre=document.getElementById(nombre).value;
+    //let verNombre=document.getElementById(posicion);
    
-  verNombre.innerHTML=('Listo ' + valorNombre);
-   
-  ;
-  }
+  //verNombre.innerHTML=('Listo ' + valorNombre);
+
+ // }
     
 ////////////////////////////////////////////////////////////////////
  
@@ -66,10 +65,9 @@ enviarClUsuario.addEventListener('click',verPagCod);
 
 ///Sección donde debe aparecer el nombre del jefe en la página///
 
-const nombreJefe=nombres('nombre-jefe','ver-nombre-jefe');
+//const nombreJefe=()=>{nombres('nombre-jefe','ver-nombre-jefe')}
 //const verNombre=document.getElementById('ver-nombre-jefe');
 //const nombre=document.getElementById('nombre-jefe').value;
-
 //verNombre.innerHTML=nombre;
 
 
@@ -161,7 +159,7 @@ enviarDatosEmpleado.addEventListener('click',codigoEmpleado);
 ///Mando de E1 a E2 de hoja de mi prototipo//
 // Sección donde debe aparecer el nombre del empleado en la página//
 
-const nombreEmpleado=nombres('nombre-empleado','ver-nombre-empleado');
+//const nombreEmpleado=nombres('nombre-empleado','ver-nombre-empleado');
 
 // Le voy a solicitar al empleado que escriba el código encriptado y así pueda enviar su trabajo//
 const enviarCodEncriptado=document.getElementById('codigo-encriptado');
@@ -186,6 +184,6 @@ registroBoton.addEventListener('click',verPagJefe);
 const reinicio=document.getElementById('salida');
 
 const pagInicio=()=>{
-  location.reload(TipoDeUsuario);
+  location.reload('TipoDeUsuario');
 }
 reinicio.addEventListener('click',pagInicio);

@@ -25,6 +25,12 @@ Tal vez, se esuché poco; sin embargo, no es así. Ya que, se incitaría a los e
 
 -Proceso y decisiones de diseño
 =================================
+En cuanto al proceso y decisiones de diseño, se tomaron en cuenta varios factores que ocurren en las empresas como son:
+* Plagio de información
+* Falta de control para la evaluación de labores de los empleados
+
+Su diseño fue creado a partir de una temática un tanto discreta, sin tantos colores, ni formas; viéndose elegante y que a pesar de no tener tantas instrucciones, sea instuitiva para ambos usuarios. 
+Se eligieron seis tonos de colores, principalmente, aunado a una imagen como fondo, con la cual, hice alusión a seguridad y/o privacidad por medio de un candado, porque, justamente, lo que se pretende con este proyecto es crear contraseñas para cierta base de datos. 
 
 
 ________________________________________________________________________________________________________________________________________

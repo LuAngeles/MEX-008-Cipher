@@ -288,7 +288,7 @@ body{
     height: 20px;
     font-size: 20px;
     color: black;
-    }
+}
 #guarda-codigo{
     position: static;
     display: inline-block;;
@@ -306,7 +306,7 @@ body{
 
 #guarda-codigo:hover{
     display: inline-block;
-    position: fixed
+    position: fixed;
     text-align:center;
     vertical-align: middle;
     margin: 5px 5px;
@@ -402,19 +402,21 @@ body{
     font-size: 20px;
     color: black;
 }
-#codigo-decifrado{
+
+/*#codigo-decifrado{
     display: inline-block;
-    position: static;
     text-align:center;
     margin: 5px 5px;
     padding: 20px 20px;
+    font-size: 30px;
+    color: black;
     border-radius:15px;
     background:#ABE9DF;
-    width: 70px;
-    height: 20px;
-    font-size: 20px;
-    color: black;
-    }
+    width: 60%;
+    height: 20%;
+}
+*/
+
     /* SECCIÓN DE EMPLEADO*/
     #datos-empleado{
         display: inline-block;
@@ -459,8 +461,7 @@ body{
     }
     
     #codigo-encriptado:hover{
-        display: inline-block;
-        
+        display: inline-çblock;
         text-align: center;
         vertical-align: middle;
         margin: 5px 5px;
